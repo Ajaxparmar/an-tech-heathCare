@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Us - AN-TECH HEALTHCARE SOLUTIONS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/icofont.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <style>
+    .contact-form {
+      background: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    .contact-form h3 {
+      color: #e12454;
+      margin-bottom: 25px;
+      font-weight: 700;
+    }
+    .form-control {
+      border: 2px solid #f1f1f1;
+      border-radius: 8px;
+      padding: 12px 15px;
+      transition: all 0.3s;
+    }
+    .form-control:focus {
+      border-color: #e12454;
+      box-shadow: 0 0 0 3px rgba(225, 36, 84, 0.1);
+    }
+    .btn-submit {
+      background: linear-gradient(135deg, #e12454, #f36b7a);
+      color: white;
+      padding: 14px 40px;
+      border: none;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+    .btn-submit:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(225, 36, 84, 0.3);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header (Copy from your index.html or about.html) -->
+  <header>
+    <div class="header-top-bar">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <ul class="top-bar-info list-inline-item pl-0 mb-0">
+              <li class="list-inline-item"><a href="mailto:antechhealthcare@gmail.com"><i class="icofont-support-faq mr-2"></i>info@antechhealthcaresolutions.com</a></li>
+              <li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Shop No. 111, Opp. DRDA, HUDA Market, Jind, Haryana - 126102</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <div class="text-lg-right top-right-bar mt-2 mt-lg-0">
+              <a href="tel:+918950141078">
+                <span>Call Now : </span>
+                <span class="h4">+91 89501 41078</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <nav class="navbar navbar-expand-lg navigation" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo1.png" alt="AN-TECH HEALTHCARE SOLUTIONS" class="img-fluid">
+        </a>
+  
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icofont-navigation-menu"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarmain">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="appoinment.html">Book Appointment</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-title bg-1">
+    <div class="container">
+      <h1>Contact Us</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            
+            <form id="contactForm" action="#" method="post">
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <input type="email" class="form-control" id="email" placeholder="Email Address">
+                </div>
+                <div class="col-md-6 mb-4">
+                  <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="col-12 mb-4">
+                  <textarea class="form-control" id="message" rows="6" placeholder="Write your message here..." required></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-submit btn-round-full w-100">
+                Send Message <i class="icofont-paper-plane ml-2"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="contact-info mt-5 mt-lg-0">
+            <h3>Contact Information</h3>
+            
+            <div class="mt-4">
+              <h5><i class="icofont-location-pin text-danger"></i> Address</h5>
+              <p>Shop No. 111, Opposite D.R.D.A.<br>
+                 HUDA Market, Jind, Haryana - 126102</p>
+            </div>
+
+            <div class="mt-4">
+              <h5><i class="icofont-phone text-danger"></i> Call Us</h5>
+              <p>
+                +91 89501 41078<br>
+                +91 86071 81587<br>
+                +91 91191 51805
+              </p>
+            </div>
+
+            <div class="mt-4">
+              <h5><i class="icofont-email text-danger"></i> Email</h5>
+              <p>info@antechhealthcaresolutions.com</p>
+            </div>
+
+            <div class="mt-5">
+              <h5>Working Hours</h5>
+              <p><strong>Monday - Saturday:</strong> 8:00 AM - 8:00 PM<br>
+                 <strong>Sunday:</strong> Emergency Services Only</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Success Popup Modal -->
+  <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body text-center p-5">
+          <i class="icofont-check-circled" style="font-size: 60px; color: #28a745;"></i>
+          <h3 class="mt-3 text-success">Thank You!</h3>
+          <p>Your message has been received successfully.<br>We will contact you soon.</p>
+          <button type="button" class="btn btn-main btn-round-full" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer section gray-bg">
+    <div class="container">
+      <p class="text-center">© 2026 AN-TECH HEALTHCARE SOLUTIONS. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault(); // Stop page reload
+      
+      // Show success modal
+      $('#successModal').modal('show');
+      
+      // Reset form after showing popup
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
