@@ -537,3 +537,27 @@
     .accred-grid       { grid-template-columns: repeat(2, 1fr); }
     .accred-label h5   { font-size: 12px; }
   }
+
+
+
+  .core-values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 18px;
+    margin-top: 10px;
+  }
+  
+  .value-item {
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 5px solid #1e3a8a;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  
+  .value-item strong {
+    color: #1e3a8a;
+    font-size: 16px;
+  }
