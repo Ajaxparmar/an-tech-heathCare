@@ -397,7 +397,7 @@
     border: 1px solid var(--border); text-align: center;
   }
   .team-avatar {
-    width: 64px; height: 64px;
+    width: 164px; height: 164px;
     border-radius: 50%; background: var(--red-light);
     margin: 0 auto 12px;
     display: flex; align-items: center; justify-content: center;
